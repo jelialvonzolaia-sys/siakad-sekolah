@@ -1,12 +1,12 @@
-<!-- HEADER GELOMBANG ANIMASI EVERGREEN -->
+<!-- HEADER GELOMBANG ANIMASI EVERGREEN (LOKAL SVG - ANTI BROKEN IMAGE) -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1812,50:1F3B2E,100:3C5A3A&height=210&section=header&text=SIAKAD%20%26%20LMS%20SMANSA&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Sistem%20Informasi%20Akademik%20%26%20Pembelajaran%20Terpadu%20—%20SMA%20Negeri%201%20Gunungsitoli&descAlignY=58&descSize=15" width="100%" alt="Header SIAKAD SMANSA"/>
+  <img src="./docs/header.svg" width="100%" alt="Header SIAKAD SMANSA"/>
 </div>
 
-<!-- ANIMASI TEKS MENGETIK (TYPING SVG) -->
+<!-- ANIMASI TEKS MENGETIK (TYPING SVG - KONTRAS DI DARK & LIGHT MODE) -->
 <div align="center">
-  <a href="https://github.com/jelialvonzolaia-sys">
-    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=18&duration=3200&pause=1000&color=1F3B2E&center=true&vCenter=true&multiline=false&width=780&lines=Portal+Akademik+Multi-Role+(Admin+TU%2C+Guru%2C+dan+Siswa);Presensi+Cerdas+dengan+Validasi+GPS+%26+QR+Code+Dinamis;Manajemen+Materi%2C+Tugas+Rich-Text%2C+Jadwal+Ujian+%26+Help+Desk;Real-Time+Notifikasi+%26+Sinkronisasi+Waktu+WIB+(Asia%2FJakarta)" alt="Typing SVG" />
+  <a href="https://github.com/jelialvonzolaia-sys/siakad-sekolah">
+    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=18&duration=3200&pause=1000&color=76B947&center=true&vCenter=true&multiline=false&width=780&lines=Portal+Akademik+Multi-Role+(Admin+TU%2C+Guru%2C+dan+Siswa);Presensi+Cerdas+dengan+Validasi+GPS+%26+QR+Code+Dinamis;Manajemen+Materi%2C+Tugas+Rich-Text%2C+Jadwal+Ujian+%26+Help+Desk;Real-Time+Notifikasi+%26+Sinkronisasi+Waktu+WIB+(Asia%2FJakarta)" alt="Typing SVG" />
   </a>
 </div>
 
@@ -98,8 +98,8 @@
 
 ```bash
 # 1. Clone repository ini
-git clone [https://github.com/jelialvonzolaia-sys/siakad-sman1-gunungsitoli.git](https://github.com/jelialvonzolaia-sys/siakad-sman1-gunungsitoli.git)
-cd siakad-sman1-gunungsitoli
+git clone [https://github.com/jelialvonzolaia-sys/siakad-sekolah.git](https://github.com/jelialvonzolaia-sys/siakad-sekolah.git)
+cd siakad-sekolah
 
 # 2. Instal dependensi PHP & Frontend
 composer install
