@@ -1,58 +1,118 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<!-- HEADER GELOMBANG ANIMASI EVERGREEN -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1812,50:1F3B2E,100:3C5A3A&height=210&section=header&text=SIAKAD%20%26%20LMS%20SMANSA&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Sistem%20Informasi%20Akademik%20%26%20Pembelajaran%20Terpadu%20—%20SMA%20Negeri%201%20Gunungsitoli&descAlignY=58&descSize=15" width="100%" alt="Header SIAKAD SMANSA"/>
+</div>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<!-- ANIMASI TEKS MENGETIK (TYPING SVG) -->
+<div align="center">
+  <a href="https://github.com/jelialvonzolaia-sys">
+    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=18&duration=3200&pause=1000&color=1F3B2E&center=true&vCenter=true&multiline=false&width=780&lines=Portal+Akademik+Multi-Role+(Admin+TU%2C+Guru%2C+dan+Siswa);Presensi+Cerdas+dengan+Validasi+GPS+%26+QR+Code+Dinamis;Manajemen+Materi%2C+Tugas+Rich-Text%2C+Jadwal+Ujian+%26+Help+Desk;Real-Time+Notifikasi+%26+Sinkronisasi+Waktu+WIB+(Asia%2FJakarta)" alt="Typing SVG" />
+  </a>
+</div>
 
-## About Laravel
+<br/>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<!-- BADGES TEKNOLOGI -->
+<div align="center">
+  <img src="https://img.shields.io/badge/Laravel-11.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel 11"/>
+  <img src="https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.2+"/>
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
+  <img src="https://img.shields.io/badge/Alpine.js-Interactive-8BC0D0?style=for-the-badge&logo=alpinedotjs&logoColor=black" alt="Alpine.js"/>
+</div>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<br/>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<!-- GARIS PEMISAH ANIMASI -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider"/>
 
-## Learning Laravel
+## 🏫 Tentang Sistem
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+**SIAKAD & LMS SMANSA** adalah aplikasi berbasis web terintegrasi yang dirancang khusus untuk **SMA Negeri 1 Gunungsitoli** *(NPSN: 10258462 — Jl. Pendidikan No. 3, Gunungsitoli, Sumatera Utara)*. Sistem ini menggabungkan administrasi akademik sekolah dan *Learning Management System* (LMS) dalam satu antarmuka **Evergreen** yang bersih, formal, responsif, dan *real-time*.
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎯 Keunggulan Utama</h3>
+      <ul>
+        <li><b>Multi-Role Terpadu:</b> Hak akses terpisah untuk <b>Admin TU</b>, <b>Guru</b>, dan <b>Siswa</b>.</li>
+        <li><b>Presensi Anti-Titip Absen:</b> Wajib GPS Geolocation & <i>reverse-geocoding</i> alamat + QR Code dinamis berganti tiap 20 detik.</li>
+        <li><b>Sinkronisasi Waktu Real-Time:</b> Jam digital aktif <code>HH:MM:SS WIB</code> (<code>Asia/Jakarta</code>) di semua role & tab.</li>
+        <li><b>Modern UI/UX:</b> Tanpa dialog <code>alert()</code> bawaan browser—diganti dengan <i>Toast Notification Card</i> & <i>Custom Confirmation Modal</i>.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📊 Struktur Data Awal (Seeder)</h3>
+      <ul>
+        <li><b>Identitas Sekolah:</b> SMA Negeri 1 Gunungsitoli (10258462)</li>
+        <li><b>Akun Administrator:</b> 1 Admin TU Terpusat</li>
+        <li><b>Tenaga Pendidik:</b> 6 Guru Pengampu & Wali Kelas</li>
+        <li><b>Rombongan Belajar:</b> 6 Kelas (<code>X MIPA 1</code> s/d <code>XII IPS 1</code>)</li>
+        <li><b>Peserta Didik:</b> 100 Siswa Aktif Terdaftar</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider"/>
 
-## Agentic Development
+## ✨ Fitur Lengkap Berdasarkan Peran
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+<details open>
+  <summary><b>🛡️ 1. Panel Administrator (Tata Usaha)</b></summary>
+  <br/>
+  <ul>
+    <li><b>Dashboard Real-Time:</b> Statistik langsung total siswa, guru, rombel kelas, mata pelajaran, dan jadwal harian.</li>
+    <li><b>Manajemen Data Kelas & Mapel:</b> CRUD kelas dengan integrasi wali kelas serta daftar rekap anggota kelas.</li>
+    <li><b>Manajemen Akun Guru & Siswa:</b> Pengelompokan siswa per kelas, halaman detail satu layar, reset kata sandi, dan hapus akun.</li>
+    <li><b>Penjadwalan Akademik:</b> Penyusunan jadwal pelajaran mingguan (dengan deteksi anti-bentrok) dan jadwal ujian sekolah.</li>
+    <li><b>Pengumuman Sekolah Rich-Text:</b> Editor pengumuman lengkap dengan upload poster/gambar dan target penerima (Semua / Guru / Siswa).</li>
+    <li><b>Pusat Help Desk Masuk:</b> Kotak masuk tiket bantuan dari siswa maupun guru dengan balasan percakapan langsung.</li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>👨‍🏫 2. Portal Guru Pengampu</b></summary>
+  <br/>
+  <ul>
+    <li><b>Sesi Presensi Cerdas:</b> Buka sesi presensi per pertemuan dengan pilihan metode <b>Mandiri (GPS)</b> atau <b>QR Code Dinamis</b>, disertai tabel rekap & override kehadiran langsung.</li>
+    <li><b>Manajemen Materi Pelajaran:</b> Unggah dan kelola modul pembelajaran (<code>PDF</code>, <code>DOCX</code>, <code>PPTX</code>) per kelas.</li>
+    <li><b>Tugas & Penilaian:</b> Buat instruksi tugas dengan <i>Rich Text Editor</i> ala MS Word, filter ekstensi file siswa, unduh seluruh tugas kelas dalam satu arsip <code>.zip</code>, dan berikan nilai beserta feedback.</li>
+    <li><b>Notifikasi & Help Desk:</b> Notifikasi otomatis saat siswa mengumpulkan tugas atau membalas komentar.</li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>🎓 3. Portal Siswa</b></summary>
+  <br/>
+  <ul>
+    <li><b>Presensi Kelas 2-Tahap:</b> Daftar mata pelajaran kelas &rarr; tabel pertemuan &rarr; modal presensi dengan verifikasi lokasi GPS wajib & pemindai QR.</li>
+    <li><b>Akses Materi & Pengumpulan Tugas:</b> Unduh materi guru dan unggah jawaban multi-file lewat area <i>Drag & Drop</i> lengkap dengan status waktu pengajuan & kolom diskusi.</li>
+    <li><b>Jadwal Ujian & Pengumuman:</b> Pantau jadwal ujian kelas, pengumuman resmi sekolah, serta kirim tiket bantuan ke Admin TU lewat fitur Help Desk.</li>
+  </ul>
+</details>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider"/>
+
+## 🚀 Panduan Instalasi Lokal (Laragon / XAMPP)
 
 ```bash
-composer require laravel/boost --dev
+# 1. Clone repository ini
+git clone [https://github.com/jelialvonzolaia-sys/siakad-sman1-gunungsitoli.git](https://github.com/jelialvonzolaia-sys/siakad-sman1-gunungsitoli.git)
+cd siakad-sman1-gunungsitoli
 
-php artisan boost:install
-```
+# 2. Instal dependensi PHP & Frontend
+composer install
+npm install && npm run build
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+# 3. Salin konfigurasi environment & buat application key
+cp .env.example .env
+php artisan key:generate
 
-## Contributing
+# 4. Atur nama database pada file .env (misal: DB_DATABASE=db_siakad_smansa)
+# 5. Jalankan migrasi tabel, seeder data awal, dan storage link
+php artisan migrate --seed
+php artisan storage:link
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# 6. Jalankan server pengembangan
+php artisan serve
